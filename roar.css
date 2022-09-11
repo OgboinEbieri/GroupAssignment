@@ -1,0 +1,73 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#logo1{
+    background-color: #1E956E;
+}
+#image{
+    margin: 0 0 0 2.5em;
+  padding-bottom: 2em;
+}
+#signin{
+   width: 180px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    padding: 12px 0;
+    background: #ff156A;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    
+}
+#entirecontainer{
+    margin-left: 3em;
+}
+.allinput{
+    background-color: #e6e6e6;
+    border: none;
+    width: 90%;
+    padding: 0.5em 0 0.5em 0;
+    text-align: center;
+}
+#singleinput{
+    background-color: #fcf9f9 ;
+    width: 90%;
+    text-align: center;
+    padding: 0.5em 0 0.5em;
+    border-color: #1E956E;
+    margin-left: 1em;
+   
+}
+.forgotpassword{
+    margin-left: 42em;
+    color: #1E956E;
+}
+@media (min-width: 768px) {
+  #image  
+ #signin
+ #entirecontainer
+ #singleinput
+ .forgotpassword
+ .allinput{
+    float: none;
+    text-align: center;
+    width: 100%;
+ }
+}
+@media (max-width: 2000px) {
+    #image  
+   #signin
+   #entirecontainer
+   #singleinput
+   .forgotpassword
+   .allinput{
+      float: none;
+      text-align: center;
+      width: 100%;
+   }
+  }
